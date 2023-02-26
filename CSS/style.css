@@ -13,12 +13,21 @@ a {
 }
 
 section {
-    margin-top: 100px;
+    padding: 50px 0px;
 }
 
 .all_section_sector_style {
     padding: 1% 20% 5%;
     text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.allitemcenter {
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* NavBar */
@@ -32,6 +41,14 @@ section {
 .custom_navbar_wrapper {
     position: absolute;
     right: 10%;
+}
+
+.link-nav {
+    width: 125px;
+}
+
+.link-nav i {
+    padding: 0 3%;
 }
 
 @media (max-width:768px) {
@@ -135,6 +152,10 @@ section {
 /* -------------------- Header Closed  --------------------*/
 
 /* Welcome Section */
+#welcome_section {
+    background-color: #ECF2FF;
+}
+
 .welcome_section_style {
     padding: 8%;
 }
@@ -159,8 +180,8 @@ section {
     background-color: #fff;
     text-align: left;
     height: 125px;
-    overflow: hidden;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .custom_section_sector:nth-child(1) {
@@ -172,23 +193,23 @@ section {
 }
 
 .custom_section_sector:hover .icon_custom {
-    padding: 38px 20px;
+    padding: 9% 6%;
 }
 
 .custom_section_sector_img {
     float: left;
     margin-right: 10%;
-    padding: 10px;
+    padding: 3%;
 }
 
 .custom_section_sector_title {
     float: left;
-    padding: 35px 0px;
+    padding: 6% 0;
 }
 
 .icon_custom {
     float: right;
-    padding: 38px 10px;
+    padding: 9% 3%;
     font-size: 3rem;
     color: #ddd;
 }
@@ -198,6 +219,10 @@ section {
 }
 
 /* --------------------  Section Sector Section Closed  --------------------*/
+#instructor {
+    margin: 0 auto;
+}
+
 .single_instructor {
     overflow: hidden;
     height: 350px;
@@ -206,6 +231,7 @@ section {
 .instructor_img {
     width: 300px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .single_instructor img {
@@ -220,4 +246,154 @@ section {
 .instructor_icon i:hover {
     color: blue;
     cursor: pointer;
+}
+
+
+/*Courses Section*/
+
+
+.courseswrapper {
+    padding: 0% 6%;
+}
+
+.single_courses {
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+    border: 1px solid #8f8a8a;
+    border-radius: 3%;
+    margin-right: 5%;
+    margin: 2% auto;
+}
+
+/*
+.single_courses:nth-child(3) {
+    margin-right: 0;
+}
+
+.single_courses:nth-child(6) {
+    margin-right: 0;
+}*/
+#courses {
+    background-color: #ECF2FF;
+}
+
+.img_wrapperOf_courses {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    left: -15px;
+}
+
+.img_wrapperOf_courses img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.title_imgae_courses p {
+    color: #4095ff;
+}
+
+.title_imgae_courses span {
+    color: #5a5a5a;
+}
+
+.title_imgae_courses h5 {
+    font-weight: bold;
+}
+
+
+
+/*About Section*/
+.about_list li:first-child,
+.about_list li:nth-child(3) {
+    float: left;
+}
+
+.about_list li:last-child,
+.about_list li:nth-child(2) {
+    float: right;
+}
+
+.about_list li {
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+.about_list li h3 {
+    color: #4095ff;
+    font-size: 3rem;
+    margin: 1% 0;
+    font-weight: bold;
+}
+
+.about_list {
+    margin: 5% 0;
+    width: 100%;
+}
+
+.about_text h2 {
+    margin: 10% 0;
+    font-weight: 900;
+    color: #5a5a5a;
+}
+
+.about_text h4 {
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.about_text p {
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.about_us_image_wrapper {
+    overflow: hidden;
+}
+
+.about_us_image {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    top: 25px;
+}
+
+.about_us_image:last-child {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    bottom: 65px;
+    z-index: 0;
+}
+
+.about_us_image img {
+    max-width: 100%;
+}
+
+/*Footer Section*/
+#footer {
+    background-color: #254a87a1;
+    color: #ddd;
+}
+
+#footer a li {
+    color: #fff;
+}
+
+#footer a li:hover {
+    color: #CD0404;
+}
+
+.foot_p {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.copywrite_wrapper p {
+    font-size: 0.90rem;
+    margin-bottom: 2px;
+    border-top: 1px solid #ddd;
 }
